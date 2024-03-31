@@ -1,0 +1,92 @@
+.upcoming-events-li{
+    flex-shrink: 0;
+    background-size:cover;
+    border-radius:10px;
+    height:420px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:20px;
+    padding:10px;
+    border:1px solid #B0BABF;
+}
+
+@media screen and (min-width:768px){
+    .upcoming-events-li{
+        flex-basis:300px;
+        max-width:360px;
+        flex-grow:1;
+        margin-right:30px;
+    }
+}
+
+
+.events-image-date-container{
+    border:1px solid black;
+    background-size:cover;
+    border-radius:10px;
+    height:80%;
+    display:flex;
+    align-items: flex-end;
+    color:white;
+    margin-bottom:25px;
+}
+
+.events-formatted-date{
+    margin:0;
+    background-color: #1E2022;
+    width:100%;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    text-align:left;
+    padding:8px;
+    padding-left:12px;
+}
+
+.events-li-content-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    height:100px;
+}
+
+.events-li-event-name{
+    margin:0;
+    text-align:left;
+    color:#1E2022;
+}
+
+
+.events-weather-distance-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+
+.events-li-location-container{ 
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-weight:500;
+    color: #989090; 
+}
+
+.events-city-name{
+    padding-left:6px;
+}
+
+.events-temprature-distance-container{
+    display:flex;
+    font-weight:500;
+    color: #989090;
+}
+
+.events-pipe{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+
+
